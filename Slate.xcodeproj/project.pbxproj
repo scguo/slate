@@ -272,7 +272,6 @@
 		47C4A2A31384E8890066B6DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		47C4A2A51384E8890066B6DE /* SlateAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlateAppDelegate.h; sourceTree = "<group>"; };
 		47C4A2A61384E8890066B6DE /* SlateAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SlateAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		47C4A2A91384E8890066B6DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		47C4A2B01384E8890066B6DE /* SlateTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlateTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47C4A2B61384E8890066B6DE /* SlateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SlateTests-Info.plist"; sourceTree = "<group>"; };
 		47C4A2B81384E8890066B6DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -291,6 +290,7 @@
 		47C4A2D51384F5DD0066B6DE /* ExpressionPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpressionPoint.h; sourceTree = "<group>"; };
 		47C4A2D61384F5DE0066B6DE /* ExpressionPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpressionPoint.m; sourceTree = "<group>"; };
 		5EB99A0116A7526400760915 /* ASCIIToCode_Azerty.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ASCIIToCode_Azerty.plist; sourceTree = "<group>"; };
+		6E4881502B642153002C88C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		7F44A9A916621A9D00222908 /* ASCIIToCode_Colemak.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ASCIIToCode_Colemak.plist; sourceTree = "<group>"; };
 		B3D087CF160577FB008A7FC6 /* status.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = status.pdf; path = Slate/status.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -684,6 +684,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 47C4A2841384E8890066B6DE;
 			productRefGroup = 47C4A2901384E8890066B6DE /* Products */;
@@ -860,7 +861,7 @@
 		47C4A2A81384E8890066B6DE /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				47C4A2A91384E8890066B6DE /* en */,
+				6E4881502B642153002C88C9 /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
